@@ -1,0 +1,35 @@
+header {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.title {
+  width: 85vw;
+  margin-top: 0.8rem;
+  border: 3px double lightgrey;
+  letter-spacing: 8px;
+  background: #ededed;
+  padding: 0.2rem;
+  color: darkslategray;
+}
+
+.header-img {
+  width: 18%;
+  margin-top: 1rem;
+}
+
+.arrow {
+  width: 11%;
+}
+
+@media only screen and (max-width: 800px) {
+  .title {
+    letter-spacing: 1px;
+  }
+  .header-img {
+    width: 45%;
+  }
+}

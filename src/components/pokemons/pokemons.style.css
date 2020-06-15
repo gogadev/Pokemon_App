@@ -1,0 +1,37 @@
+.pokemons {
+  background: lightgrey;
+  padding: 0.4rem;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  outline-offset: -5px;
+  text-transform: capitalize;
+}
+
+.name {
+  letter-spacing: 5px;
+  background: #ededed;
+  padding: 0.2rem;
+}
+
+
+.type {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  letter-spacing: 3px;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  color: darkslategray;
+}
+
+.pokemon-type {
+  margin-left: 0.5rem;
+}
+
+.info {
+  margin: 0.2rem auto;
+  letter-spacing: 2px;
+  background: rgba(235, 235, 235, 0.678);
+  padding: 0.3rem;
+  font-size: 0.9rem;
+  color: rgb(126, 126, 123);
+}
